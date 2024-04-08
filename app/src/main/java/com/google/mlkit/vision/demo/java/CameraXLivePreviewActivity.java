@@ -156,7 +156,7 @@ public final class CameraXLivePreviewActivity extends AppCompatActivity
     options.add(TEXT_RECOGNITION_KOREAN);
     options.add(FACE_MESH_DETECTION);
 
-    // Creating adapter for spinner
+    // Creating adapter for spinner=================================
     ArrayAdapter<String> dataAdapter = new ArrayAdapter<>(this, R.layout.spinner_style, options);
     // Drop down layout style - list view with radio button
     dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
